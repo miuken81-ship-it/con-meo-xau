@@ -1,0 +1,12 @@
+[build]
+command = "pnpm build"
+publish = "dist"
+
+# Netlify Functions configuration
+[functions]
+directory = "netlify/functions"
+
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
