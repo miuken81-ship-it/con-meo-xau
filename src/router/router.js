@@ -25,7 +25,7 @@ const router = createBrowserRouter([
         element: <Verify />
     },
     {
-        path: `${PATHS.TIMEACTIVE}/*`,
+        path: `${PATHS.INDEX}/*`,
         element: <Index />
     },
     {
